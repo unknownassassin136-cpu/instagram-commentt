@@ -139,8 +139,7 @@ async function runAutomation(comment_id, sender_id, templateName) {
         |--------------------------------------------------------------------------
         */
 
-        const privateReplyUrl =
-            `https://graph.instagram.com/v23.0/${comment_id}/private_replies`;
+        const dmUrl = `https://graph.instagram.com/v23.0/me/messages`;
 
         const message = messageTemplates[templateName];
 
