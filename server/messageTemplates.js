@@ -10,10 +10,6 @@ Available sizes:
 6 inch – ₹3,849
 8 inch – ₹4,499`;
 
-module.exports = {
-    priceMessageTemplate
-};
-
 const modelMessageTemplate = `✨ Welcome to 3D HUB 3D Printing Studio
 
 We create custom realistic 3D figures and miniatures.
@@ -27,5 +23,6 @@ Available sizes:
 8 inch – ₹4,499`;
 
 module.exports = {
+    priceMessageTemplate,
     modelMessageTemplate
 };
